@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navigation-section */
+
+.navbar {
+    background-color:#009688;
+    padding: 10px 0px 10px;
+}
+.navbar a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* margin: 0px 10px 0px; */
+}
+.navbar a:hover{
+    color:brown;
+}
+
+/*banner-section */
+.banner-section {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, -0.25), rgba(0, 0, 0, 0.50)), url(../img/cyclist.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner-content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:wheat;
+}
+.banner-content h1 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+.button-top {
+    width: 200px;
+    padding: 15px 0px;
+    align-items: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: 700;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span {
+    background: #009688;
+    width: 0;
+    border-radius: 25px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.button-top:hover span {
+    width: 100%;
+}
+.button-top:hover {
+    border: none;
+}
+
+/* working-section */
+.working-section {
+    padding: 50px 0px 80px;
+    background-color: #F8f9fa;
+}
+.working-section p{
+    font-family: Georgia, serif;
+    font-size: 19px;
+}
+
+/* about-section */
+.about-me {
+    padding: 20px 0px 20px;
+    background-color: #F8f9fa;
+}
+.about-me p {
+    padding: 0px 200px 0px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+/* service-section */
+.service-section {
+    padding: 40px 0px 40px;
+}
+.inner {
+    overflow: hidden;
+}
+.inner img {
+    transition: all 1.6s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.6);
+}
+
+.card-body {
+    text-align: center;
+}
+.card-body p {
+    font-family: Georgia, serif;
+}
+.card {
+    border-radius: 25px;
+}
+.card-body .btn {
+    padding: 10px 20px;
+    font-weight: 700;
+    background-color: brown;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+}
+
+/* hero-section */
+.hero-section {
+    padding: 60px 0px 60px;
+}
+.hero-section p {
+    font-family: Georgia, serif;
+}
+
+/* logo-section */
+.logo-section {
+    background-color: #171717;
+    padding: 40px 0px 40px;
+}
+
+/* border-section */
+.border-section {
+    background-color: #F8f9fa;
+    padding: 10px 0px 10px;
+}
+.border-text {
+    background-color: whitesmoke;
+    padding: 20px 20px 20px;
+    box-shadow: 0px 5px 5px 0px #adb5db;
+}
+.border-text p {
+    font-family: Georgia, serif;
+    padding: 0px 100px 0px;
+}
+.border-text-1 {
+    border-right: 5px groove cornflowerblue;
+    border-bottom: 5px groove cornflowerblue;
+}
+.border-text-2 {
+    border-left: 5px groove cornflowerblue;
+    border-bottom: 5px groove cornflowerblue;
+}
+.border-text-3 {
+    border-top: 5px groove cornflowerblue;
+    border-right: 5px groove cornflowerblue;
+}
+.border-text-4 {
+    border-top: 5px groove cornflowerblue;
+    border-left: 5px groove cornflowerblue;
+}
+
+.gallery-section{
+    background-color: #F8f9fa;
+}
+
+/* testimonials-section */
+.testimonials-section {
+    padding: 50px 0px 50px;
+    background-color: #F8f9fa;
+}
+/* .testimonials-body img {
+    max-width: 10rem;
+    box-shadow: 0px 5px 5px 0px #adb5db;
+} */
+
+/* contact-us */
+.product_section {
+    padding: 40px 0px 40px;
+    background-color: #F8f9fa;
+}
+.product .col{
+    font-size: 18px;
+   font-weight: 500;
+   
+
+}
+.faq-section{
+    background-color:#F8f9fa ;
+    padding: 20px 0px 50px;
+}
+
+/* footer-section */
+.footer-section {
+    padding: 100px 0px 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/professional-cyclist-women.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+.icons a{
+    border:3px solid white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: #0ef;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0px 6px 0px;
+}
+.icons a:hover{
+    background-color: #0ef;
+    color: #081b29;
+}
+
+@media (max-width:768px){
+    .about-me p {
+        padding: 0px 10px 0px;
+    }
+    .border-text p {
+        font-family: Georgia, serif;
+        padding: 0px 0px 0px;
+    }
+    .working-section {
+        padding: 13px 0px 10px;
+    }
+    .service-section {
+        padding: 10px 0px 10px;
+    }
+    .shadow{
+        margin: 10px 0px 10px
+    }
+    .logo-section .rounded-circle{
+        margin: 10px 0px 10px
+    }
+    .gallery-section .img-fluid{
+        margin: 3px 0px 3px
+    }
+    .blog-section {
+        padding: 14px 0px 10px;
+    }
+    .blog-section .img-fluid {
+        margin: 13px 0px 13px
+    }
+    .testimonials-section {
+        padding: 13px 0px 13px;
+    }
+    .testimonials-section .img-fluid {
+        margin: 13px 0px 13px
+    }
+    .product_section {
+        padding: 10px 0px 15px;
+    }
+    .product_section .img-fluid {
+        padding: 10px 0px 0px;
+    }
+    .footer-section {
+        padding: 14px 0px 14px;
+    }
+}
+
+@media (max-width:1000px) and (min-width:768px){
+    /* .banner-content h1 {
+        font-size: 30px;
+    } */
+    .about-me p {
+        padding: 0px 10px 0px;
+    }
+    .border-text p {
+        font-family: Georgia, serif;
+        padding: 0px 0px 0px;
+    }
+    .working-section {
+        padding: 13px 0px 10px;
+    }
+    .service-section {
+        padding: 10px 0px 10px;
+    }
+    .shadow{
+        margin: 10px 0px 10px
+    }
+    .logo-section .rounded-circle{
+        margin: 10px 0px 10px;
+    }
+    .gallery-section .img-fluid{
+        margin: 3px 0px 3px
+    }
+    .blog-section {
+        padding: 14px 0px 10px;
+    }
+    .blog-section .img-fluid {
+        margin: 13px 0px 13px
+    }
+    .testimonials-section {
+        padding: 13px 0px 13px;
+    }
+    .testimonials-section .img-fluid {
+        margin: 13px 0px 13px
+    }
+    .product_section {
+        padding: 10px 0px 15px;
+    }
+    .product_section .img-fluid {
+        padding: 10px 0px 0px;
+    }
+    .footer-section {
+        padding: 14px 0px 14px;
+    }
+}
+.mail{
+    color: white;
+    text-decoration: none;
+}
