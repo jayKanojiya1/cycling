@@ -24,7 +24,7 @@ body {
 /* navigation-section */
 
 .navbar {
-    background-color: #009688;
+    background-color: #000;
     padding: 10px 0px 10px;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 span {
-    background: #009688;
+    background: #000;
     width: 0;
     border-radius: 25px;
     height: 100%;
