@@ -65,6 +65,11 @@ body {
     color: #fff;
 }
 
+.banner-content p {
+    font-size: 24px;
+}
+
+
 .button-top {
     width: 200px;
     padding: 15px 0px;
@@ -239,8 +244,6 @@ span {
 .product .col {
     font-size: 18px;
     font-weight: 500;
-
-
 }
 
 .faq-section {
@@ -280,22 +283,22 @@ span {
     .banner-content {
         position: absolute;
         width: 100%;
-        top: 40%;
+        top: 50%;
         transform: translateY(-50%);
         text-align: center;
         color: wheat;
     }
 
-    .banner-section{
+    .banner-section {
         height: 80vh;
     }
 
-    .banner-content h1{
+    .banner-content h1 {
         font-size: 22px;
         color: #000;
     }
 
-    .banner-content p{
+    .banner-content p {
         font-size: 20px;
     }
 
@@ -424,4 +427,27 @@ span {
 .mail {
     color: white;
     text-decoration: none;
+}
+
+.floating-icons {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right: 40px;
+    background-color: #25d366;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.floating-icons .icon{
+    margin-top: 15px;
+    color: #FFF;
+}
+
+.floating-icons #phone{
+    color: #0ef;
 }

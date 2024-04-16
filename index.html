@@ -23,35 +23,37 @@
 
     <!-- navigation- -->
 
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <i><a class="navbar-brand fs-4" href="index.html">CYCLE MAN</a></i>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars-staggered ww-bold text-white fs-1"></i><span
-                    class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Service</a>
-                    </li>
-                    <a class="nav-link" href="#gallery">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <i><a class="navbar-brand fs-4" href="index.html">CYCLE MAN</a></i>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered ww-bold text-white fs-1"></i><span
+                        class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Service</a>
+                        </li>
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- banner-section -->
 
@@ -59,12 +61,26 @@
         <section class="banner-section">
             <div class="banner-content p-2">
                 <h1 class="fw-bold">CYCLING CLASSES<br>Discover the thrill of cycling at any age</h1>
-                <p>Cycling Classes in Mumbai</p>
+                <p class="text-warning">Cycling Classes in Mumbai</p>
                 <div>
                     <a href="tel:9619404432"><button class="button-top" type="button"><span></span>BOOK
                             NOW</button></a>
                     <a href="tel:9619404432"><button class="button-top" type="button"><span></span>CONTACT</button></a>
                 </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="floating-icons">
+                <p><a href="https://api.whatsapp.com/send?phone=+919619404432&text=Hii!%21%20Thanks%20for%20contacting%20us.%20"
+                    class="float" target="_blank" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp icon" ></i>
+                </a></p>
+                <p>
+                <a href="tel:9619404432" class="float" target="_blank" >
+                    <i class="fa-solid fa-phone icon" id="phone"></i>
+                </a>
+                </p>
             </div>
         </section>
 
@@ -101,8 +117,8 @@
         <section class="service-section">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="fw-bold text-dark mb-3" id="service">SERVICES</h2>
-                    <h4 class="text-danger fs-3 mb-4">Services For Every Occasion</h4>
+                    <h2 class="fw-bold text-dark mb-3" id="service">SERVICES WE PROVIDE</h2>
+                    <!-- <h4 class="text-danger fs-3 mb-4">Services For Every Occasion</h4> -->
                 </div>
                 <div class="row">
                     <div class="col-lg-4 mb-3 mb-md-0">
@@ -647,59 +663,61 @@
 
     <!-- footer -->
 
-    <section class="footer-section text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
+    <footer>
+        <section class="footer-section text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
 
-                    <p>At CYCLE MAN, we're here to help you pedal your way to a healthier you. With friendly
-                        instructors and personalized programs, we make learning to ride a bike easy and fun for
-                        everyone. Join us today and embark on a journey to fitness and happiness through cycling!
-                    </p>
-                    <h6>Follow us</h6>
-                    <div class="icons">
-                        <a href="javascript:void(0)"><i class="fa-brands fa-whatsapp fs-3 text-white m-2"></i></a>
-                        <!-- <a href="javascript:void(0)"><i class="fa-brands fa-twitter fs-3 text-white m-2"></i></a> -->
-                        <a href="javascript:void(0)"> <i class="fa-brands fa-facebook fs-3 text-white m-2"></i></a>
-                        <a href="https://www.instagram.com/__.cycleman.__/?utm_source=qr&igsh=OTNyMnB4anU0MWU%3D"
-                            target="_blank"><i class="fa-brands fa-instagram fs-3 text-white m-2"></i></a>
+                        <p>At CYCLE MAN, we're here to help you pedal your way to a healthier you. With friendly
+                            instructors and personalized programs, we make learning to ride a bike easy and fun for
+                            everyone. Join us today and embark on a journey to fitness and happiness through cycling!
+                        </p>
+                        <h6>Follow us</h6>
+                        <div class="icons">
+                            <a href="javascript:void(0)"><i class="fa-brands fa-whatsapp fs-3 text-white m-2"></i></a>
+                            <!-- <a href="javascript:void(0)"><i class="fa-brands fa-twitter fs-3 text-white m-2"></i></a> -->
+                            <a href="javascript:void(0)"> <i class="fa-brands fa-facebook fs-3 text-white m-2"></i></a>
+                            <a href="https://www.instagram.com/__.cycleman.__/?utm_source=qr&igsh=OTNyMnB4anU0MWU%3D"
+                                target="_blank"><i class="fa-brands fa-instagram fs-3 text-white m-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h4>Opening Days</h4>
+                        <hr>
+                        <h5>Monday</h5>
+                        <h5>Tuesday</h5>
+                        <h5>Wednesday</h5>
+                        <h5>Thursday</h5>
+                        <h5>Friday</h5>
+                        <h5>Saturday</h5>
+                        <h5>Sunday</h5>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Locations</h4>
+                        <hr>
+                        <h5>Mumbai</h5>
+                        <h5>Powai</h5>
+                        <h5>Kanjur Marg</h5>
+                        <h5>Gatkopar</h5>
+                        <h5>Bhandup</h5>
+                        <h5>Chandivali</h5>
+                        <h5>Sakinaka</h5>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Contact</h3>
+                        <hr>
+                        <h4>Address:</h4>
+                        <p> Powai Market, IIT, Mumbai, Maharashtra 400076</p>
+                        <h4>Phone:</h4>
+                        <p><a href="tel:9619404432" class="mail">9619404432</a></p>
+                        <h4>Email:</h4>
+                        <p><a href="mailto:cycleman2024@gmail.com" class="mail">cycleman2024@gmail.com</a></p>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <h4>Opening Days</h4>
-                    <hr>
-                    <h5>Monday</h5>
-                    <h5>Tuesday</h5>
-                    <h5>Wednesday</h5>
-                    <h5>Thursday</h5>
-                    <h5>Friday</h5>
-                    <h5>Saturday</h5>
-                    <h5>Sunday</h5>
-                </div>
-                <div class="col-md-3">
-                    <h4>Locations</h4>
-                    <hr>
-                    <h5>Mumbai</h5>
-                    <h5>Powai</h5>
-                    <h5>Kanjur Marg</h5>
-                    <h5>Gatkopar</h5>
-                    <h5>Bhandup</h5>
-                    <h5>Chandivali</h5>
-                    <h5>Sakinaka</h5>
-                </div>
-                <div class="col-md-3">
-                    <h3>Contact</h3>
-                    <hr>
-                    <h4>Address:</h4>
-                    <p> Powai Market, IIT, Mumbai, Maharashtra 400076</p>
-                    <h4>Phone:</h4>
-                    <p><a href="tel:9619404432" class="mail">9619404432</a></p>
-                    <h4>Email:</h4>
-                    <p><a href="mailto:cycleman2024@gmail.com" class="mail">cycleman2024@gmail.com</a></p>
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.7.1.js"
