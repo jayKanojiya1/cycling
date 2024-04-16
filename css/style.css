@@ -135,6 +135,8 @@ span {
 
 .inner {
     overflow: hidden;
+    border-radius: 25px 25px 0 0;
+
 }
 
 .inner img {
@@ -144,6 +146,7 @@ span {
 
 .inner:hover img {
     transform: scale(1.6);
+
 }
 
 .card-body {
@@ -254,7 +257,8 @@ span {
 /* footer-section */
 .footer-section {
     padding: 100px 0px 100px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/professional-cyclist-women.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/professional-cyclist-women.jpg); */
+    background-color: #000;
     background-size: cover;
     background-position: center;
 }
@@ -431,23 +435,26 @@ span {
 
 .floating-icons {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 80px;
+    bottom: 40px;
     right: 40px;
-    background-color: #25d366;
-    border-radius: 50px;
     text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
 
-.floating-icons .icon{
-    margin-top: 15px;
+.floating-icons .icon {
     color: #FFF;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding: 14px;
+    font-size: 30px;
+
 }
 
-.floating-icons #phone{
-    color: #0ef;
+.floating-icons #whatsapp {
+    background-color: #25d366;
+}
+
+.floating-icons #phone {
+    background-color: #0ef;
 }
