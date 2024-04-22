@@ -29,14 +29,12 @@ body {
 }
 
 .navbar a {
-    color: white;
-    /* font-size: 18px; */
+    color: white !important;
     text-transform: uppercase;
     font-weight: 500;
-    /* margin: 0px 10px 0px; */
 }
 
-.navbar a:hover {
+.navbar li:hover {
     color: #fff;
     border-bottom: 3px solid #fff;
 }
@@ -458,6 +456,6 @@ span {
     background-color: #0ef;
 }
 
-ul.disc li{
+ul.disc li {
     list-style-type: disc;
 }
