@@ -457,3 +457,7 @@ span {
 .floating-icons #phone {
     background-color: #0ef;
 }
+
+ul.disc li{
+    list-style-type: disc;
+}
