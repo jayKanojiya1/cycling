@@ -359,6 +359,11 @@ span {
     .footer-section {
         padding: 14px 0px 14px;
     }
+
+    .header-logo{
+        display: block;
+        margin: auto;
+    }
 }
 
 @media (max-width:1000px) and (min-width:768px) {
